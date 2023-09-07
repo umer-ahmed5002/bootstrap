@@ -1,0 +1,401 @@
+html {
+    scroll-behavior: smooth;
+  }
+.baner{
+    width: 100%;
+    min-height: 50vh;
+    background-color: rgb(5, 16, 37);
+    background-image: url('./baners/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 120px 0 60px 0;
+    color: rgba(255, 255, 255, 0.8);
+}
+.para{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+.parag{
+    color: rgb(243, 235, 235);
+    
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.sear{
+    height: 80px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid rgb(235, 234, 234);
+    outline: none;
+    padding: 30px;
+    
+}
+label{
+    position: relative;
+}
+.light{
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.client{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.befor::before{
+    content: '';
+    display: flex;
+    width: 20px;
+    height: 3px;
+    background: blue;
+    margin: 0 15px 10px 0;
+    margin-left: 13px;
+}
+.whit{
+    font-size: 35px;
+    font-weight: 700;
+}
+.befor{
+    font-weight: 600;
+}
+.how{
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(20, 19, 19);
+}
+.how:hover{
+    color: blue;
+}
+.howa{
+    cursor: pointer;
+    font-weight: 600;
+}
+.howa:hover{
+    color: blue;
+}
+.about{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(24, 24, 121);
+}
+.box2{
+    width: 100%;
+    height: 500px;
+    background-image: url('./baners/about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box3{
+    display: flex;
+    margin-top: 30px;
+}
+.home{
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(48, 48, 87);
+}
+.box5{
+    display: flex;
+    margin-top: 5px;
+}
+.box6{
+    display: flex;
+    margin-top: 5px;
+}
+.box7{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.our{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(22, 22, 109);
+}
+.our::after{
+    content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: rgb(47, 47, 160);
+  /* margin: 0 15px 10px 0; */
+    margin-left: 86px;
+  margin-top: 10px;
+  
+}
+.stro{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(21, 21, 129);
+}
+.card{
+    cursor: pointer;
+    margin-top: 20px;
+}
+.card-text{
+    color: rgb(92, 90, 90);
+    
+}
+.call{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+.box8{
+    background: linear-gradient(rgba(4, 7, 53, 0.6),rgba(4, 7, 53, 0.6)), url('./baners/about.7jpg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.ligh{
+    color: white;
+    border: 2px solid white;
+    width: 180px;
+    height: 45px;
+}
+.ligh:hover{
+    background-color: rgb(52, 52, 223);
+    color: white;
+    border: none;
+}
+.lala{
+    font-size: 25px;
+    font-weight: 600;
+    color: #001973;
+}
+.lead{
+    font-size: 18px;
+}
+.box9{
+    display: flex;
+}
+.ouri{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(22, 22, 109);
+}
+.ouri::after{
+    content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: rgb(47, 47, 160);
+  /* margin: 0 15px 10px 0; */
+    margin-left: 40px;
+  margin-top: 10px;
+  
+}
+.free{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.dollar{
+    display: flex;
+}
+.doll{
+    font-weight: 500;
+    color: blue;
+    margin-top: 5px;
+    margin-right: 2px;
+    
+}
+.math{
+    font-size: 45px;
+    font-weight: 500;
+    color: blue;
+}
+.month{
+    margin-top: 32px;
+    color: rgb(168, 164, 164);
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.quam{
+    color: rgb(110, 106, 106);
+}
+.quama{
+    color: rgb(146, 143, 143);
+}
+.dar{
+    color: blue;
+    border: 1px solid blue;
+    
+    font-size: 18px;
+    
+    width: 130px;
+    
+}
+.dar:hover{
+    border: none;
+    color: white;
+    background-color: blue;
+    font-weight: 600;
+}
+.dar{
+    
+    margin-top: 20px;
+    height: 50px;
+}
+.drink{
+    margin-top: 20px;
+    width: 130px;
+    height: 50px;
+    font-weight: 600;
+}
+.box10{
+    background: linear-gradient(rgba(4, 7, 53, 0.6),rgba(4, 7, 53, 0.6)), url('./baners/about.7jpg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.ali{
+    width: 100px;
+    border-radius: 50px;
+    border: 5px solid rgba(194, 188, 188, 0.219);
+}
+.sidu{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+.song{
+    color: rgba(218, 213, 213, 0.842);
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: -15px;
+}
+.star{
+    color: rgb(218, 218, 38);
+}
+.lorem{
+    margin-top: 10px;
+    color: white;
+    font-weight: 600;
+}
+.loremm{
+    color: white;
+    margin-top: -10px;
+    font-weight: 600;
+}
+.box11{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.ouria{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(22, 22, 109);
+}
+.ouria::after{
+    content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: rgb(47, 47, 160);
+  /* margin: 0 15px 10px 0; */
+    margin-left: 220px;
+  margin-top: 10px;
+  
+}
+.car{
+    font-size: 18px;
+    font-weight: 600;
+}
+.box12{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.navbar-brand{
+    font-size: 30px;
+  font-weight: 700;
+}
+.lite{
+    list-style: none;
+    color: rgb(131, 126, 126);
+    cursor: pointer;
+    margin-top: 10px;
+}
+.lite:hover{
+    color: white;
+    text-decoration: none;
+}
+.footer{
+    margin-top: 100px;
+    background-color: rgb(4, 28, 56);
+    height: 100%;
+    padding-bottom: 20px;
+}
+.size{
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+}
+.sizer{
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+}
+.liter{
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    
+}
+.liter:hover{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.logo:hover{
+    text-decoration: none;
+    color: rgb(133, 131, 130);
+}
+.fa-brands{
+    color: rgb(235, 228, 217);
+    font-size: 20px;
+    border: 1px solid rgb(133, 131, 130);
+    padding: 7px;
+    border-radius: 20px;
+}
+.fa-brands:hover{
+    border:1px solid white;
+}
+.cart{
+    display: block;
+    justify-content: flex-end;
+    
+}
